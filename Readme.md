@@ -1,3 +1,8 @@
+Group Project - 1:
+------------------
+
+Question:
+---------
 The Fibonacci numbers F n are defined as follows. F 0 is 1, F 1 is 1, and Fi+2 = F i + F i+1 i = 0, 1, 2, ... .
 In other words, each number is the sum of the previous two numbers. The first few Fibonacci numbers
 are 1, 1, 2, 3, 5, and 8. One place that these numbers occur is as certain population growth rates. If a
@@ -12,3 +17,13 @@ program that takes both the initial size of a green crud population (in pounds) 
 input, and that outputs the number of pounds of green crud after that many days. Assume that the
 population size is the same for 4 days and then increases every fifth day. Your program should allow
 the user to repeat this calculation as often as desired.
+
+-----------------------------------------------------------------------------------------------------------------
+
+Presented BY:
+-------------
+
+=>Anu Thampi
+=>Ashtami
+=>Karthik
+=>Varsha
