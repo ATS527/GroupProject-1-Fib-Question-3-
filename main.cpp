@@ -5,7 +5,7 @@ int main() {
   int initial_pop {};  //initial population
   int days {};         //days passed
   int final_pop {};    //Final population
-  int option {};
+  char choice {};
 
   do{
     cout << "Enter the current population of green crud (in pounds) : ";
@@ -49,12 +49,12 @@ int main() {
 
     cout << "After " << days << " days green crud's population would be : " << final_pop << " pounds!" << endl;
     cout << endl;
-    cout << "Would you like to do it again! (enter -1 to continue) : ";
-    cin >> option;
+    cout << "Would you like to do it again! (enter 'Y' or 'N') : ";
+    cin >> choice;
     cout << endl;
     cout << endl;
 
-  }while(option == -1);
+  }while(choice == 'Y' || choice == 'y');
 
   cout << "Thank You!";
   return 0;
