@@ -12,6 +12,7 @@ int main() {
     cin >> initial_pop;
     cout << "Enter the number of days went : ";
     cin >> days;
+    cout << endl;
 
     //Fibonacci Sequence extraction
     int fib_pos = days/5;     //Fibonacci limiting 
