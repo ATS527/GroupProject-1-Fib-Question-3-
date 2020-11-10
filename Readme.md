@@ -10,6 +10,8 @@ population has no deaths, then the series shows the size of the population after
 takes an organism two time periods to mature to reproducing age, and then the organism reproduces
 once every time period. The formula applies most straightforwardly to asexual reproduction at a rate of
 one offspring per time period.
+
+
 Assume that the green crud population grows at this rate and has a time period of 5 days. Hence, if a
 green crud population starts out as 10 pounds of crud, then in 5 days there is still 10 pounds of crud; in
 10 days there is 20 pounds of crud, in 15 days 30 pounds, in 20 days 50 pounds, and so forth. Write a
