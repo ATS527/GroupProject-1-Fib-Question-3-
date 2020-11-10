@@ -2,10 +2,10 @@
 using namespace std;
 int main() {
   
-  int initial_pop {};  //initial population
-  int days {};         //days passed
-  int final_pop {};    //Final population
-  char choice {};
+  int initial_pop;  //initial population
+  int days;         //days passed
+  int final_pop;    //Final population
+  char choice;
 
   do{
     cout << "Enter the current population of green crud (in pounds) : ";
@@ -17,9 +17,9 @@ int main() {
     //Fibonacci Sequence extraction
     int fib_pos = days/5;     //Fibonacci limiting 
 
-    int first {},second {1};
-    int fib {};     //fib number of current index 
-    int temp {};
+    int first,second = 1;
+    int fib;     //fib number of current index 
+    int temp;
 
     //fib finding loop
     for(int i = 1; i <= fib_pos; i++) {
